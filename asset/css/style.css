@@ -1,0 +1,33 @@
+.fire_defender {
+
+    width: 4px;
+    border: 1px solid black;
+    height: 50px;
+    position: absolute;
+    bottom: 17px;
+    left: 35%;
+     transform-origin: bottom;
+
+}
+.body_ennemies, .body_defender {
+    position: relative;
+    width: 20px;
+    border: 1px solid 
+
+    black;
+    height: 40px;
+
+}
+.body_defender {
+    position: absolute !important;
+    bottom: 0px;
+}
+.fire_enimis{
+	width: 4px;
+    border: 1px solid black;
+    height: 50px;
+    position: absolute;
+    top: 17px;
+    left: 35%;
+    transform-origin: top;
+}
