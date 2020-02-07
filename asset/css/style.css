@@ -12,15 +12,17 @@
 .body_ennemies, .body_defender {
     position: relative;
     width: 20px;
-    border: 1px solid 
-
-    black;
+    border: 1px solid black;
     height: 40px;
 
+}
+.body_ennemies {
+      left : 300px;
 }
 .body_defender {
     position: absolute !important;
     bottom: 0px;
+    left : 100px;
 }
 .fire_enimis{
 	width: 4px;
@@ -30,4 +32,14 @@
     top: 17px;
     left: 35%;
     transform-origin: top;
+}
+.boule{
+	
+    width: 61%;
+    height: 32%;
+    border-radius: 50%;
+    border: 1px solid;
+    left: 3px;
+    position: absolute;
+    top: 42%;
 }
